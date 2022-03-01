@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: #F4F6D4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1{
+    background-color: chartreuse;
+    /* height: 30vh; */
+    padding: 10px;
+}
+
+h1{
+    color: rgb(10, 32, 198);
+}
+
+h3 {
+    background-color: aquamarine;
+    color: brown;
+    padding: 1%;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(305, 92%, 19%);
+    font-family: 'Dancing Script', Helvetica, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+}
+
+#second-p{
+    color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1rem;
+}
+
+#box-model{
+    background-color: lightcoral;
+    width: 300px;
+    border: 15px solid black;
+    margin: 20px;
+    /* padding: 50px; */
+
+    /* padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; */
+
+    /* padding: 5px 10px 5px 10px; */
+    padding: 5px 10px;
+}
+
+.categories{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background: darkmagenta;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.333%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+#side__block{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
+
+.my-list li:first-child{
+    background: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background: royalblue;
+}
+
+.my-list li:nth-child(5){
+    background: chartreuse;
+}
+
+.dynamic-list li:nth-child(even){
+    background: lightcoral;
+}
+
+.dynamic-list li:nth-child(odd){
+    background: darkblue;
+}
